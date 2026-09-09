@@ -1,0 +1,22 @@
+{
+  "expo": {
+    "name": "Life",
+    "slug": "life-memorama",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/life-icon.png",
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#075332",
+        "foregroundImage": "./assets/life-icon.png"
+      }
+    },
+    "web": {
+      "favicon": "./assets/life-icon.png"
+    }
+  }
+}
