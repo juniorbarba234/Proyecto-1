@@ -12,13 +12,14 @@ Repositorio de ejercicios de React Native y Expo.
 | 4 | Life | Aplicación de bienestar con hábitos, estadísticas y memorama. | [Abrir](parcial/Ejercicio_10) |
 | 5 | Mapas | Visualización de mapas en React Native. | [Abrir](parcial/Ejercicio_12) |
 | 6 | Ejemplo 02 | Entradas de texto, scroll y componentes reutilizables. | [Abrir](parcial/Ejercicio_2) |
-| 7 | DynamicFlatlist | Catálogo de cursos con tarjetas y detalles al seleccionar. | [Abrir](parcial/DynamicFlatlist) |
-| 8 | Ejemplo 04 | Modal personalizado y captura de texto. | [Abrir](parcial/Ejercicio_4) |
-| 9 | MongoDB | Agenda escolar con API Express y MongoDB Atlas. | [Abrir](parcial/MongoDB) |
-| 10 | Sensores | Lecturas de acelerómetro, giroscopio, magnetómetro y podómetro. | [Abrir](parcial/Sensores) |
-| 11 | StackNavigation | Navegación entre pantallas con Stack Navigator. | [Abrir](parcial/StackNavigation) |
-| 12 | TabNavigation | Navegación inferior con pestañas. | [Abrir](parcial/TabNavigation) |
-| 13 | Animated | Animaciones con la API Animated de React Native. | [Abrir](parcial/animated) |
+| 7 | Ejemplo 03 | Imágenes y listas en React Native. | [Abrir](parcial/Ejercicio_3) |
+| 8 | DynamicFlatlist | Catálogo de cursos con tarjetas y detalles al seleccionar. | [Abrir](parcial/DynamicFlatlist) |
+| 9 | Ejemplo 04 | Modal personalizado y captura de texto. | [Abrir](parcial/Ejercicio_4) |
+| 10 | MongoDB | Agenda escolar con API Express y MongoDB Atlas. | [Abrir](parcial/MongoDB) |
+| 11 | Sensores | Lecturas de acelerómetro, giroscopio, magnetómetro y podómetro. | [Abrir](parcial/Sensores) |
+| 12 | StackNavigation | Navegación entre pantallas con Stack Navigator. | [Abrir](parcial/StackNavigation) |
+| 13 | TabNavigation | Navegación inferior con pestañas. | [Abrir](parcial/TabNavigation) |
+| 14 | Animated | Animaciones con la API Animated de React Native. | [Abrir](parcial/animated) |
 
 ## Tecnologías
 
