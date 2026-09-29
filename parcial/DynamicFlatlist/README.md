@@ -1,23 +1,16 @@
-# DynamicFlatlist — Campus Cursos
+# DynamicFlatlist
 
-Práctica React Native con Expo: FlatList de cinco cursos, tarjetas con título, duración y calificación, selección con estado y Modal de detalles. Incluye búsqueda sin distinción de acentos, estado vacío y cierre con botón o botón Atrás de Android. Los cursos y calificaciones son datos de ejemplo.
+App.js reproduce el ejemplo de 202360162-dev/MiRepoDemoRemotoAndroid, Parcial/DinamicFlatList/App.js (commit 7d875c2).
+
+Referencia: https://github.com/202360162-dev/MiRepoDemoRemotoAndroid/blob/7d875c2faf4a20f4e17c9a8f3fc5d11542545ffd/Parcial/DinamicFlatList/App.js
+
+Se conserva la estructura del ejemplo y se completan las tarjetas con título, duración y calificación. Al pulsar una tarjeta, manejaPresionCurso recibe el curso y muestra sus datos en una alerta. No incluye búsqueda.
 
 ## Ejecutar
-
-Desde esta carpeta, con Node y Expo Go compatible con SDK 57:
 
 ```cmd
 npm install
 npx expo start --tunnel
 ```
 
-Escanea el QR con Expo Go. No requiere servidor ni MongoDB.
-
-## Comprobar
-
-Abre una tarjeta y verifica que los detalles correspondan al curso. Cierra la ventana, busca «moviles», prueba una búsqueda sin coincidencias y pulsa «Ver todos los cursos».
-
-```cmd
-npx expo export --platform android
-npx expo export --platform ios
-```
+Requiere Expo Go compatible con SDK 57.
