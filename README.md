@@ -20,16 +20,3 @@ Repositorio de ejercicios de React Native y Expo.
 | 12 | StackNavigation | Navegación entre pantallas con Stack Navigator. | [Abrir](parcial/StackNavigation) |
 | 13 | TabNavigation | Navegación inferior con pestañas. | [Abrir](parcial/TabNavigation) |
 | 14 | Animated | Animaciones con la API Animated de React Native. | [Abrir](parcial/animated) |
-
-## Tecnologías
-
-React Native · Expo · JavaScript · React Navigation · MongoDB Atlas · Express
-
-## Ejecución
-
-Cada carpeta es un proyecto independiente. Entra a la carpeta, instala dependencias y ejecuta:
-
-```cmd
-npm install
-npx expo start
-```
