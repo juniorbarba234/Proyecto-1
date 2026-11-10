@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:paddingLeft="32dp"
+    android:paddingTop="76dp"
+    android:paddingRight="32dp"
+    android:paddingBottom="32dp">
+
+    <ImageView
+        android:id="@+id/imgPerfil"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:contentDescription="Fotografía de perfil"
+        android:src="@android:drawable/ic_menu_camera"
+        android:scaleType="centerCrop" />
+
+    <Button
+        android:id="@+id/btnFoto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/seleccionar_foto" />
+
+    <EditText
+        android:id="@+id/edtNombrePerfil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="@string/nombre_completo"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/edtUsuarioPerfil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/usuario"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/btnGuardarPerfil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/guardar_perfil" />
+
+    <TextView
+        android:id="@+id/txtPerfilResultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp" />
+</LinearLayout>

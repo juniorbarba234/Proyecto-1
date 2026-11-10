@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CloneWhatsApp</string>
+    <string name="fase_tres">Autenticación con Supabase</string>
+    <string name="registro">Registro</string>
+    <string name="crear_cuenta">Crear cuenta</string>
+    <string name="iniciar_sesion">Iniciar sesión</string>
+    <string name="recuperar_password">Recuperar contraseña</string>
+    <string name="enviar_correo">Enviar correo</string>
+    <string name="sesion">Sesión</string>
+    <string name="ver_sesion">Ver sesión activa</string>
+    <string name="cerrar_sesion">Cerrar sesión</string>
+    <string name="nombre_completo">Nombre completo</string>
+    <string name="usuario">Nombre de usuario</string>
+    <string name="correo">Correo electrónico</string>
+    <string name="password">Contraseña</string>
+    <string name="sin_sesion">No hay una sesión activa.</string>
+    <string name="sesion_activa">Sesión activa: %1$s</string>
+    <string name="sesion_expirada">La sesión terminó o expiró.</string>
+    <string name="datos_invalidos">Revisa los datos. La contraseña debe tener al menos 6 caracteres.</string>
+    <string name="procesando">Procesando…</string>
+    <string name="registro_correcto">Cuenta creada. Revisa tu correo para confirmarla y después inicia sesión.</string>
+    <string name="correo_recuperacion_enviado">Revisa tu correo para restablecer la contraseña.</string>
+    <string name="fase_cuatro">Fase 4: Perfiles y contactos</string>
+    <string name="mi_perfil">Mi perfil</string>
+    <string name="contactos">Contactos</string>
+    <string name="seleccionar_foto">Seleccionar fotografía</string>
+    <string name="guardar_perfil">Guardar perfil</string>
+    <string name="buscar_usuario">Buscar usuario</string>
+    <string name="destinatario_seleccionado">Destinatario seleccionado: %1$s</string>
+    <string name="perfil_guardado">Perfil guardado correctamente.</string>
+</resources>
