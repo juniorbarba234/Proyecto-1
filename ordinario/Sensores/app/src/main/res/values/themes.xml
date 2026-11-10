@@ -1,0 +1,18 @@
+<resources>
+    <style name="Theme.PanelDeSensores" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary">#315FC4</item>
+        <item name="colorPrimaryVariant">#214695</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="android:fontFamily">sans</item>
+    </style>
+
+    <style name="ValorSensor">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">-6dp</item>
+        <item name="android:background">@drawable/fondo_sensor</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:textColor">#48566B</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+</resources>
