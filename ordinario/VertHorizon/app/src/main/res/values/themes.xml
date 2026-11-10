@@ -1,0 +1,8 @@
+<resources>
+    <style name="Theme.VerticalHorizontal" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary">#315FC4</item>
+        <item name="colorPrimaryVariant">#214695</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="android:fontFamily">sans</item>
+    </style>
+</resources>

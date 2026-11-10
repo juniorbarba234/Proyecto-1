@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F4F7FC"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="28dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cambio de orientación"
+        android:textColor="#17233C"
+        android:textSize="27sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textoOrientacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:textColor="#315FC4"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/entradaTexto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:hint="Escribe un mensaje"
+        android:inputType="textCapSentences"
+        android:minHeight="56dp" />
+
+    <Button
+        android:id="@+id/botonMostrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:text="Mostrar mensaje" />
+
+    <TextView
+        android:id="@+id/textoResultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/fondo_resultado"
+        android:gravity="center"
+        android:minHeight="110dp"
+        android:padding="20dp"
+        android:text="Tu mensaje aparecerá aquí"
+        android:textColor="#17233C"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+</LinearLayout>
+
