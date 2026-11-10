@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:background="#F6F7FC">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="24dp">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24dp" android:text="Galería de Layouts" android:textColor="#20233A" android:textSize="30sp" android:textStyle="bold" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:layout_marginBottom="28dp" android:text="Selecciona un diseño para ver cómo organiza sus elementos." android:textColor="#666A80" android:textSize="16sp" />
+        <Button android:id="@+id/btnLinear" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="12dp" android:text="LinearLayout — en fila" />
+        <Button android:id="@+id/btnFrame" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="12dp" android:text="FrameLayout — por capas" />
+        <Button android:id="@+id/btnRelative" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="12dp" android:text="RelativeLayout — posiciones relativas" />
+        <Button android:id="@+id/btnTable" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="TableLayout — filas y columnas" />
+    </LinearLayout>
+</ScrollView>

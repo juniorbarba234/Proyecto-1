@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:padding="24dp" android:background="#E8F5E9">
+    <TextView android:id="@+id/tituloRelative" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:text="Tarjeta de perfil" android:textColor="#1B5E20" android:textSize="26sp" android:textStyle="bold" />
+    <TextView android:id="@+id/avatarRelative" android:layout_width="100dp" android:layout_height="100dp" android:layout_below="@id/tituloRelative" android:layout_centerHorizontal="true" android:layout_marginTop="28dp" android:background="#43A047" android:gravity="center" android:text="JB" android:textColor="#FFFFFF" android:textSize="30sp" />
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/avatarRelative" android:layout_centerHorizontal="true" android:layout_marginTop="18dp" android:text="José Barba" android:textColor="#263238" android:textSize="21sp" android:textStyle="bold" />
+    <Button android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:text="Elemento alineado abajo" />
+</RelativeLayout>
