@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Calculadora de sumas</string>
+    <string name="titulo">Sumador rápido</string>
+    <string name="subtitulo">Escribe dos cantidades para obtener su suma.</string>
+    <string name="primer_numero">Primera cantidad</string>
+    <string name="segundo_numero">Segunda cantidad</string>
+    <string name="sumar">Calcular suma</string>
+    <string name="limpiar">Limpiar</string>
+    <string name="resultado_inicial">Resultado: —</string>
+    <string name="resultado">Resultado: %1$s</string>
+    <string name="faltan_numeros">Completa las dos cantidades.</string>
+    <string name="numero_invalido">Escribe números válidos.</string>
+</resources>
