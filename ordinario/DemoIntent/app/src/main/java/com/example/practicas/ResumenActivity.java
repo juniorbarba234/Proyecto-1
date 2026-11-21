@@ -13,9 +13,23 @@ public class ResumenActivity extends AppCompatActivity {
         int personas = getIntent().getIntExtra("personas", 1);
         double precio = getIntent().getDoubleExtra("precio", 0);
         LinearLayout panel = new LinearLayout(this);
-        panel.setPadding(24, 24, 24, 24);
+        int margen = (int) (16 * getResources().getDisplayMetrics().density);
+        panel.setPadding(margen, margen, margen, margen);
         panel.setOrientation(LinearLayout.VERTICAL);
-        setContentView(panel);
+        ScrollView scroll = new ScrollView(this);
+        scroll.addView(panel);
+        setContentView(scroll);
+        androidx.core.view.ViewCompat.setOnApplyWindowInsetsListener(scroll, (vista, insets) -> {
+            androidx.core.graphics.Insets barras = insets.getInsets(
+                    androidx.core.view.WindowInsetsCompat.Type.systemBars()
+                            | androidx.core.view.WindowInsetsCompat.Type.displayCutout());
+            vista.setPadding(barras.left, barras.top, barras.right, barras.bottom);
+            return insets;
+        });
+        TextView titulo = new TextView(this);
+        titulo.setText("Resumen del viaje");
+        titulo.setTextSize(26);
+        panel.addView(titulo);
         TextView resumen = new TextView(this);
         resumen.setTextSize(22);
         resumen.setText(String.format(Locale.getDefault(), "Destino: %s\nPersonas: %d\nPor persona: $%.2f\nTotal: $%.2f", destino, personas, precio, personas * precio));
