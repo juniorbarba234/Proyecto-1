@@ -23,6 +23,18 @@ public class MainActivity extends AppCompatActivity {
         ScrollView scroll = new ScrollView(this);
         scroll.addView(panel);
         setContentView(scroll);
+        androidx.core.view.ViewCompat.setOnApplyWindowInsetsListener(scroll, (vista, insets) -> {
+            androidx.core.graphics.Insets barras = insets.getInsets(
+                    androidx.core.view.WindowInsetsCompat.Type.systemBars()
+                            | androidx.core.view.WindowInsetsCompat.Type.displayCutout());
+            vista.setPadding(barras.left, barras.top, barras.right, barras.bottom);
+            return insets;
+        });
+        TextView titulo = new TextView(this);
+        titulo.setText("Serpientes y escaleras");
+        titulo.setTextSize(24);
+        titulo.setTypeface(null, android.graphics.Typeface.BOLD);
+        panel.addView(titulo);
         estado = new TextView(this);
         estado.setTextSize(18);
         panel.addView(estado);
